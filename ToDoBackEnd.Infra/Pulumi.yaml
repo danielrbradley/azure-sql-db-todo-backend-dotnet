@@ -1,0 +1,7 @@
+name: ToDoBackEnd.Infra
+runtime: dotnet
+description: Azure Web Application with an appservice plan with B1 SKU
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/0f9fe2b8-2493-42c4-9b54-bf83bc871e41.zip
